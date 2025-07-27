@@ -1,0 +1,22 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '--cache-from', 'gcr.io/$PROJECT_ID/agentic-frontend', '-t', 'gcr.io/$PROJECT_ID/agentic-frontend', '.']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/agentic-frontend']
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args:
+  - 'run'
+  - 'deploy'
+  - 'agentic-frontend'
+  - '--image'
+  - 'gcr.io/$PROJECT_ID/agentic-frontend'
+  - '--region'
+  - 'us-central1'
+  - '--platform'
+  - 'managed'
+  - '--allow-unauthenticated'
+  - '--set-env-vars'
+  - 'VITE_API_BASE_URL=https://agent-engine-backend-811982883381.us-central1.run.app'
+images:
+- 'gcr.io/$PROJECT_ID/agentic-frontend'

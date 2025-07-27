@@ -1,0 +1,393 @@
+/* .result-card {
+  background: linear-gradient(135deg, #ffffff 80%, #d6eaff 100%);
+  border-radius: 1.5em;
+  box-shadow: 0 8px 48px 0 rgba(0,0,0,0.08);
+  padding: 2rem 2rem 1.5rem 2rem;
+  margin: 2rem 0;
+  max-width: 900px;
+  width: 100%;
+  color: #1d1d1f;
+  border: 1.5px solid #d1d1d6;
+  position: relative;
+}
+
+.result-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+  font-size: 1.1em;
+  margin-bottom: 1.2em;
+}
+
+.result-card-icon {
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+
+.result-card-title {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #007aff;
+}
+
+.result-card-query {
+  color: #6e6e73;
+  font-size: 0.98em;
+  margin-left: 1em;
+}
+
+.result-card-query-text {
+  color: #1d1d1f;
+  font-style: italic;
+}
+
+.result-card-status {
+  margin-left: auto;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.result-card-complete {
+  color: #22c55e;
+}
+
+.result-card-answer-section {
+  background: linear-gradient(135deg, #e9e9eb 60%, #d6eaff 100%);
+  border-radius: 1em;
+  padding: 1.2em 1.5em;
+  margin-bottom: 1.5em;
+  border: 1px solid #d1d1d6;
+}
+
+.result-card-answer-label {
+  font-weight: 600;
+  color: #007aff;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 1.1em;
+}
+
+.result-card-answer {
+  font-size: 1.18em;
+  color: #1d1d1f;
+  margin-bottom: 0.2em;
+}
+
+.result-card-image img {
+  max-width: 100%;
+  margin-top: 1rem;
+  border-radius: 12px;
+}
+
+.result-card-sources-section {
+  margin-top: 1.2em;
+}
+
+.result-card-sources-label {
+  font-weight: 600;
+  color: #6e6e73;
+  margin-bottom: 0.7em;
+  font-size: 1.05em;
+}
+
+.result-card-source {
+  background: #e9e9eb;
+  border-radius: 1em;
+  padding: 1em 1.2em;
+  margin-bottom: 1em;
+  border: 1px solid #d1d1d6;
+}
+
+.result-card-source-item {
+  margin-bottom: 4px;
+}
+
+.result-card-source-link {
+  color: #60a5fa;
+  word-break: break-all;
+}
+
+.result-card-answer strong {
+  font-weight: 700;
+  color: #1d1d1f;
+}
+
+.result-card-answer em {
+  font-style: italic;
+  color: #6e6e73;
+}
+
+.result-card-answer a {
+  color: #007aff;
+  text-decoration: underline;
+}
+
+.result-card-answer ul {
+  margin-left: 1.2em;
+  list-style: disc;
+}
+
+.result-card-answer p {
+  margin-bottom: 0.5em;
+}
+
+ */
+
+
+ .result-card {
+  background: linear-gradient(135deg, #ffffff 80%, #d6eaff 100%);
+  border-radius: 1.5em;
+  box-shadow: 0 8px 48px 0 rgba(0,0,0,0.08);
+  padding: 2rem 2rem 1.5rem 2rem;
+  margin: 2rem 0;
+  max-width: 900px;
+  width: 100%;
+  color: #1d1d1f;
+  border: 1.5px solid #d1d1d6;
+  position: relative;
+}
+
+.result-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+  font-size: 1.1em;
+  margin-bottom: 1.2em;
+}
+
+.result-card-icon {
+  font-size: 2em;
+  margin-right: 0.5em;
+}
+
+.result-card-title {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #007aff;
+}
+
+.result-card-query {
+  color: #6e6e73;
+  font-size: 0.98em;
+  margin-left: 1em;
+}
+
+.result-card-query-text {
+  color: #1d1d1f;
+  font-style: italic;
+}
+
+.result-card-status {
+  margin-left: auto;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.result-card-complete {
+  color: #22c55e;
+}
+
+.result-card-answer-section {
+  background: linear-gradient(135deg, #e9e9eb 60%, #d6eaff 100%);
+  border-radius: 1em;
+  padding: 1.2em 1.5em;
+  margin-bottom: 1.5em;
+  border: 1px solid #d1d1d6;
+}
+
+.result-card-answer-label {
+  font-weight: 600;
+  color: #007aff;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 1.1em;
+}
+
+.result-card-answer {
+  font-size: 1.18em;
+  color: #1d1d1f;
+  margin-bottom: 0.2em;
+}
+
+.result-card-image img {
+  max-width: 100%;
+  margin-top: 1rem;
+  border-radius: 12px;
+}
+
+.result-card-sources-section {
+  margin-top: 1.2em;
+}
+
+.result-card-sources-label {
+  font-weight: 600;
+  color: #6e6e73;
+  margin-bottom: 0.7em;
+  font-size: 1.05em;
+}
+
+.result-card-source {
+  background: #e9e9eb;
+  border-radius: 1em;
+  padding: 1em 1.2em;
+  margin-bottom: 1em;
+  border: 1px solid #d1d1d6;
+}
+
+.result-card-source-item {
+  margin-bottom: 4px;
+}
+
+.result-card-source-link {
+  color: #60a5fa;
+  word-break: break-word;
+}
+
+.result-card-answer strong {
+  font-weight: 700;
+  color: #1d1d1f;
+}
+
+.result-card-answer em {
+  font-style: italic;
+  color: #6e6e73;
+}
+
+.result-card-answer a {
+  color: #007aff;
+  text-decoration: underline;
+}
+
+.result-card-answer ul {
+  margin-left: 1.2em;
+  list-style: disc;
+}
+
+.result-card-answer p {
+  margin-bottom: 0.5em;
+}
+
+/* ------------------ MCQ Block Styles ------------------ */
+.mcq-block {
+  padding: 1em;
+  background: #ffffff; /* Light background */
+  border-radius: 1em;
+  border: 1px solid var(--border-color); /* Light border */
+  margin-top: 1em;
+}
+
+.mcq-question {
+  font-weight: bold;
+  font-size: 1.15em;
+  margin-bottom: 1em;
+  color: var(--text-color); /* Match main text color */
+}
+
+.mcq-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mcq-option {
+  background: var(--background-color); /* Light background for options */
+  padding: 0.8em 1em;
+  margin-bottom: 0.5em;
+  border-radius: 0.7em;
+  transition: background 0.3s;
+  border: 1px solid var(--border-color); /* Light border for options */
+  color: var(--text-color); /* Match main text color */
+}
+
+.mcq-option:hover {
+  background: var(--hover-color); /* Light hover effect */
+}
+
+.mcq-answer-btn,
+.mcq-explanation-btn {
+  margin-top: 1em;
+  background: var(--primary-color); /* Primary blue button */
+  border: none;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-size: 0.95em;
+  transition: background 0.3s;
+}
+
+.mcq-answer-btn:hover,
+.mcq-explanation-btn:hover {
+  background: #005bb5; /* Darker blue on hover */
+}
+
+.mcq-answer,
+.mcq-explanation {
+  margin-top: 1em;
+  padding: 0.8em;
+  background: var(--background-color); /* Light background for answer/explanation */
+  border-radius: 0.6em;
+  border: 1px solid var(--border-color); /* Light border */
+  font-size: 1em;
+  line-height: 1.5em;
+  color: var(--text-color); /* Match main text color */
+}
+
+.mcq-block-glass {
+  background: rgba(255, 255, 255, 0.8); /* Light glassy background */
+  border-radius: 1.5em;
+  box-shadow: 0 8px 48px 0 rgba(0,0,0,0.08); /* Light shadow */
+  padding: 2rem;
+  color: var(--text-color); /* Match main text color */
+  border: 1.5px solid var(--border-color); /* Light border */
+  margin-bottom: 2rem;
+}
+
+.mcq-options {
+  list-style: none;
+  padding: 0;
+}
+
+.mcq-option {
+  padding: 0.7em 1em;
+  margin-bottom: 0.5em;
+  border-radius: 0.7em;
+  background: var(--sidebar-background); /* Light background for options */
+  transition: background 0.2s;
+  color: var(--text-color); /* Match main text color */
+}
+
+.mcq-option:hover {
+  background: var(--hover-color); /* Light hover effect */
+}
+
+.mcq-correct {
+  background: #e6ffe6; /* Light green for correct */
+  border: 2px solid #22c55e; /* Green border */
+  color: #1d1d1f; /* Ensure text is visible */
+}
+
+.mcq-wrong {
+  background: #ffe6e6; /* Light red for wrong */
+  border: 2px solid #ef4444; /* Red border */
+  color: #1d1d1f; /* Ensure text is visible */
+}
+
+.mcq-answer {
+  margin-top: 1em;
+  font-size: 1.1em;
+  color: var(--text-color); /* Match main text color */
+}
+
+.mcq-explanation {
+  margin-top: 1em;
+  color: var(--primary-color); /* Primary blue for explanation text */
+}
+
+.mcq-explanation strong {
+  color: #ffc107;
+}
