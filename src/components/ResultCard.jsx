@@ -179,7 +179,7 @@ import remarkGfm from "remark-gfm";
 import MCQBlock from "./MCQBlock.jsx";
 import "./ResultCard.css";
 
-const BACKEND_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+const BACKEND_BASE_URL = 'https://agent-engine-backend-811982883381.us-central1.run.app';
 
 const transformMarkdownWithCitations = (markdown) => {
   const sources = [];

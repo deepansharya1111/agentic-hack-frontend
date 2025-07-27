@@ -1,5 +1,5 @@
 // src/services/api.js
-export const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000') + '/api';
+export const API_BASE_URL = 'https://agent-engine-backend-811982883381.us-central1.run.app/api';
 
 export const fetchConfig = async () => {
     const response = await fetch(`${API_BASE_URL}/config`);

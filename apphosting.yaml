@@ -1,0 +1,16 @@
+# Specifies the version of the App Hosting schema.
+schemaVersion: v1alpha1
+
+# Defines the build configuration.
+buildConfig:
+  # Specifies the command to build the application.
+  buildCommand: npm run build
+  # Defines environment variables available during the build.
+  environmentVariables:
+    - variable: VITE_API_BASE_URL
+      value: "https://agent-engine-backend-811982883381.us-central1.run.app"
+
+# Defines the serving configuration for static content.
+staticConfig:
+  # Specifies the directory containing the static assets.
+  public: dist
